@@ -1,6 +1,6 @@
 program for1;
 uses crt;
-var a,b,c:integer;
+var a,b,c,d,e,f:integer;
 
 begin
     clrscr;
@@ -10,11 +10,11 @@ begin
     //     begin
             
     //         if a*c <= b then
-    //         writeln(a*c)
+    //         write(a*c,' ')
     //         else
     //         break;
     //     end;
-
+    
     // a:=1;
     // for a:=1 to 5 do
     // begin
@@ -91,11 +91,11 @@ begin
 
     //         writeln; 
     //     end;
-    // *
-    // **
-    // ***
-    // ****
-    // *****
+    //      *
+    //     **
+    //    ***
+    //   ****
+    //  *****
 
     // for a := 1 to 5 do
     //     begin
