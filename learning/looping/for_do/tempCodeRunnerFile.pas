@@ -1,6 +1,9 @@
-     for b:=1 to e do
+   for a:=c downto 1 do
         begin
-        if(d = e) then
+            for b:=a downto 1 do
+            begin
+                write(b);        
 
-            write(e);
+            end;
+            writeln;
         end;

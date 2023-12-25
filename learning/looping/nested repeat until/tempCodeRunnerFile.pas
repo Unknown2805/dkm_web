@@ -1,9 +1,10 @@
-     b:=1;
-            repeat
-                begin
-                    write(b,' ');
-                    b:=b+1;
-                    until(b>5);
-                end;
-            writeln();
-            a:=a+1;
+  a:=5;
+    repeat
+        b:=1;
+        repeat
+            write(b);
+            Inc(b);
+        until(b > a);
+        writeln;
+        Dec(a);
+    until(a < 1);

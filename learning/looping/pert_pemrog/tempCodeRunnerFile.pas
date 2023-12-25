@@ -1,2 +1,6 @@
-    // write('input angka kelipatan: ');readln(a);
-    // write('input batasan angka: ');readln(b);
+ // c:= 5;
+            // 5  
+            // 5  4  
+            // 5  4  3  
+            // 5  4  3  2  
+            // 5  4  3  2  1 
