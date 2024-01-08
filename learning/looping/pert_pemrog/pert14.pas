@@ -5,7 +5,7 @@ a,b,c:integer;
 jawaban:string;
 begin
 clrscr;
-repeat
+// repeat
 write('input angka: ');readln(c);
 writeln;
     // latihan 1
@@ -17,31 +17,14 @@ writeln;
             end;
             writeln;
         end;  
-            // c:= 5;
-            // *  
-            // *  *  
-            // *  *  *  
-            // *  *  *  *  
-            // *  *  *  *  *  
-
+        //     c:= 5;
+        //     *  
+        //     *  *  
+        //     *  *  *  
+        //     *  *  *  *  
+        //     *  *  *  *  *  
 
     // latihan 2
-        // for a:=c downto 1 do 
-        // begin
-        //     for b:=c downto a do
-        //     begin
-        //         write(b,'  ');
-        //     end;
-        // writeln;
-        // end;
-            // c:= 5;
-            // 5  
-            // 5  4  
-            // 5  4  3  
-            // 5  4  3  2  
-            // 5  4  3  2  1  
-
-    // latihan 3
         // for a:=c downto 1 do
         // begin
         //     for b:=a downto 1 do
@@ -57,11 +40,28 @@ writeln;
             // 2  1  
             // 1 
 
-writeln('apakah anda ingin mengulang program? Y/N');readln(jawaban);
-clrscr;
-until(jawaban = 'N') or (jawaban = 'n');
-writeln('Semoga membantu');
+    // latihan 3
+        // for a:=c downto 1 do 
+        // begin
+        //     for b:=c downto a do
+        //     begin
+        //         write(b,'  ');
+        //     end;
+        // writeln;
+        // end;
+            // c:= 5;
+            // 5  
+            // 5  4  
+            // 5  4  3  
+            // 5  4  3  2  
+            // 5  4  3  2  1  
 
-readkey;
+
+// writeln('apakah anda ingin mengulang program? Y/N');readln(jawaban);
+// clrscr;
+// until(jawaban = 'N') or (jawaban = 'n');
+// writeln('Semoga membantu');
+
+// readkey;
 end.
 

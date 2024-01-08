@@ -1,6 +1,8 @@
- // c:= 5;
-            // 5  
-            // 5  4  
-            // 5  4  3  
-            // 5  4  3  2  
-            // 5  4  3  2  1 
+                        b:= c-1;
+                                for a:=1 to c do 
+                                    begin
+                                        TextColor(White);write('Data ke-',a,' : ');TextColor(Blue);write(nama[a]);writeln;
+                                    end;
+                                            end;
+                                        Inc(c);
+                                    end;
