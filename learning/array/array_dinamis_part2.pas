@@ -37,7 +37,8 @@ clrscr;
                                                 else
                                                     begin
                                                         TextColor(Green);write(nama[a]);writeln;
-                                                    end;                                    
+                                                    end;
+                                                                                        
                                             end;                                             
                                                 Inc(c);  
                                     TextColor(Red);writeln('=============================================');                                                                           

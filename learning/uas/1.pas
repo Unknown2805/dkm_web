@@ -1,5 +1,5 @@
     // 1. Code ini tidak di desain untuk menjalankan 2 program sekaligus
-    // 2. Uncomment code yang ingin digunakan, comment kembali code yang sudah digunakan
+    // 2. Uncomment code yang ingin digunakan, comment kembali code jika sudah digunakan
 program uas_1;
 uses crt;
 var 
