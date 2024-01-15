@@ -1,3 +1,5 @@
+    // 1. Code ini tidak di desain untuk menjalankan 2 program sekaligus
+    // 2. Uncomment code yang ingin digunakan, comment kembali code jika sudah digunakan
 program upm_1;
 uses crt;
 var
@@ -5,8 +7,9 @@ a,b,c,d,e:integer;
 
 begin
 clrscr;
+
     // no 1
-        // a :=5;
+        // a := 5;
         // a := a + 1;
         // d := (14 + a * 2) div 2;
         // d := d - a;
@@ -20,7 +23,7 @@ clrscr;
         //             end;
         //         Inc(c);
         //     end;
-        //
+        
         // writeln(b);
         // writeln(d);
         // if( b = 2) then
