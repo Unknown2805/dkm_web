@@ -14,7 +14,7 @@ write('Lama Menginap(dalam hari) : ');readln(waktu);
 
 if(kelas = 'standar') then
     if (waktu >2) then
-        tarif := 400000 + (waktu-2)*35000
+        tarif := 400000 + (waktu-2)*350000
     else
         tarif:= 400000
 
